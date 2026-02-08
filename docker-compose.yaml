@@ -20,7 +20,7 @@ services:
     - redis:/data
   mysql:
     build: ./mysql
-    image: talktosureshbandaru/mysql:v2
+    image: talktosureshbandaru/mysql:v1
     container_name: mysql
     volumes:
     - mysql:/var/lib/mysql
